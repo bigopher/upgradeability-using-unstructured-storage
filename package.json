@@ -1,11 +1,25 @@
 {
   "name": "@evolutionland/upgraeability-using-unstructured-storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Upgraeability using unstructured storage",
+  "main": "truffle-config.js",
   "author": "Facundo Spagnuolo <facundo@zeppelin.solutions>",
-  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "truffle test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evolutionlandorg/upgradeability-using-unstructured-storage.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evolutionlandorg/upgradeability-using-unstructured-storage/issues"
+  },
+  "homepage": "https://github.com/evolutionlandorg/upgradeability-using-unstructured-storage#readme",
   "devDependencies": {
     "ethereumjs-abi": "^0.6.5",
     "truffle": "^4.0.4",
